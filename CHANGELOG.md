@@ -4,7 +4,10 @@
 
 # Changelog
 
-## Latest Version - v1.5.5 (10/15/24)
+## Latest Version - v1.5.6 (12/11/24)
+- Allow communication from the SIT environment
+
+## v1.5.5 (10/15/24)
 - Added a logger for the steps performed by the library
 
 ## v1.5.4 (07/02/24)

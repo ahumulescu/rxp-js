@@ -1,4 +1,4 @@
-/*! rxp-js - v1.5.5 - 2024-10-15
+/*! rxp-js - v1.5.6 - 2024-12-11
  * The official Realex Payments JS Library
  * https://github.com/realexpayments/rxp-js
  * Licensed MIT
@@ -21,7 +21,8 @@ var RealexHpp = (function () {
 
 	var allowedHppUrls = [
 		'https://pay.realexpayments.com/pay',
-		'https://pay.sandbox.realexpayments.com/pay'
+		'https://pay.sandbox.realexpayments.com/pay',
+		'https://hpp.staging.globalpay-ecommerce.com'
 	];
 
 	var randomId = randomId || Math.random().toString(16).substr(2,8);
